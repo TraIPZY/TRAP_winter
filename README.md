@@ -4,19 +4,20 @@
 
 **Author:** TRAPZY
 **Dependencies:** ESX, ox_inventory
+**License:** MIT
+
+Bring the Christmas spirit to your FiveM server with snow and interactive snowballs!
 
 ---
 
-## **Description**
-
-This script brings the Christmas spirit to your server!
+## ✨ Description
 
 * Permanent snow on the map
 * Players can pick up **snowballs** from the ground
 * Realistic pick-up animation when collecting a snowball
 * Works with **ox_inventory** for item management
 
-### **Restrictions**
+### ⚠️ Restrictions
 
 * Cannot pick up snowballs **inside buildings**
 * Cannot pick up snowballs **while in a vehicle**
@@ -24,7 +25,7 @@ This script brings the Christmas spirit to your server!
 
 ---
 
-## **Features**
+## 🎁 Features
 
 * Permanent snow weather across the map (`XMAS`)
 * Pick-up animation (`pickup_low`) for immersive RP
@@ -34,10 +35,10 @@ This script brings the Christmas spirit to your server!
 
 ---
 
-## **Installation**
+## 🗂️ Installation
 
-1. Place the folder in your server resources, e.g. `resources/[scripts]/trap_christmas`.
-2. Add to your **server.cfg**:
+1. Place the folder in your server resources, e.g., `resources/[scripts]/trap_christmas`.
+2. Add the following to your **server.cfg**:
 
 ```cfg
 ensure trap_christmas
@@ -47,7 +48,7 @@ ensure trap_christmas
 
 ---
 
-## **Usage**
+## 🎮 Usage
 
 * Go outside (on snow-covered ground) and press **E** to pick up a snowball.
 * You must be **on foot** and **outside a building**.
@@ -55,7 +56,7 @@ ensure trap_christmas
 
 ---
 
-## **Files**
+## 📂 Files
 
 * `fxmanifest.lua` — Resource manifest
 * `client.lua` — Client-side script (weather, animation, interaction)
@@ -63,18 +64,18 @@ ensure trap_christmas
 
 ---
 
-## **Customization**
+## ⚙️ Customization
 
-* You can adjust animation duration in `client.lua` by changing the `Wait()` after `TaskPlayAnim`.
-* You can change the snowball item name if needed in `server.lua` (`weapon_snowball`).
-* Weather and snow settings can be modified in `client.lua` (`XMAS`).
+* Adjust animation duration in `client.lua` by modifying the `Wait()` after `TaskPlayAnim`.
+* Change the snowball item name if needed in `server.lua` (`weapon_snowball`).
+* Modify weather and snow settings in `client.lua` (`XMAS`).
 
 ---
 
-## **License**
+## 💬 Support / Script Creation
 
-MIT License — free to use, modify, and distribute in your projects.
+For support or custom script creation, join our Discord:
+[https://discord.gg/rjjU2y93X7](https://discord.gg/rjjU2y93X7)
 
-
-
+---
 
